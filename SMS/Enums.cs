@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SMS
 {
-    public class Enums
+    public static class Enums
     {
         public enum Dept
         {
@@ -25,6 +25,14 @@ namespace SMS
             MSC, 
             MBA, 
             MA
+        }
+
+        public enum SemesterCode
+        {
+            None=0,
+            Spring,
+            Fall,
+            Summer
         }
     }
 }
